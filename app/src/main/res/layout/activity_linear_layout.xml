@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    tools:context=".LinearLayout">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="348dp"
+        app:srcCompat="@drawable/national_museum" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:text="NATIONAL MUSEUM"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Location: Padre Burgos Avenue Ermita, Manila"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:typeface="sans"
+        android:paddingTop="5dp"
+        android:paddingBottom="3dp"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Distance from UST: 3.6 km"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:typeface="sans"
+        android:paddingTop="3dp"
+        android:paddingBottom="5dp"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"/>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="111dp">
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="122dp"
+            android:layout_height="49dp"
+            android:text="NEXT"
+            tools:layout_editor_absoluteX="246dp"
+            tools:layout_editor_absoluteY="51dp" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="122dp"
+            android:layout_height="44dp"
+            android:text="BACK"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="51dp" />
+    </android.support.constraint.ConstraintLayout>
+
+
+</LinearLayout>
